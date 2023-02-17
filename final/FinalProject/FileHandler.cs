@@ -1,6 +1,6 @@
 using System.IO;
 public class FileHandler {
-    public string fileName;
+    private string fileName;
     public FileHandler (string _fileName = "") {
         fileName = _fileName;
     }
